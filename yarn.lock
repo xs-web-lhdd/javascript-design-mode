@@ -291,6 +291,15 @@
     "@babel/helper-plugin-utils" "^7.14.5"
     "@babel/plugin-syntax-class-static-block" "^7.14.5"
 
+"@babel/plugin-proposal-decorators@^7.15.4":
+  "integrity" "sha1-+1VEK8g6tNRd2na5GUlwa/IogdI="
+  "resolved" "https://registry.nlark.com/@babel/plugin-proposal-decorators/download/@babel/plugin-proposal-decorators-7.15.4.tgz?cache=0&sync_timestamp=1630618871699&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-decorators%2Fdownload%2F%40babel%2Fplugin-proposal-decorators-7.15.4.tgz"
+  "version" "7.15.4"
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.15.4"
+    "@babel/helper-plugin-utils" "^7.14.5"
+    "@babel/plugin-syntax-decorators" "^7.14.5"
+
 "@babel/plugin-proposal-dynamic-import@^7.14.5":
   "integrity" "sha1-DGYX30YcDB+P/ztHzVl3I2AQHSw="
   "resolved" "https://registry.nlark.com/@babel/plugin-proposal-dynamic-import/download/@babel/plugin-proposal-dynamic-import-7.14.5.tgz"
@@ -410,6 +419,13 @@
 "@babel/plugin-syntax-class-static-block@^7.14.5":
   "integrity" "sha1-GV34mxRrS3izv4l/16JXyEZZ1AY="
   "resolved" "https://registry.nlark.com/@babel/plugin-syntax-class-static-block/download/@babel/plugin-syntax-class-static-block-7.14.5.tgz"
+  "version" "7.14.5"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.14.5"
+
+"@babel/plugin-syntax-decorators@^7.14.5":
+  "integrity" "sha1-6vucDL4JyK/rlkujp7vWOUWnLyA="
+  "resolved" "https://registry.nlark.com/@babel/plugin-syntax-decorators/download/@babel/plugin-syntax-decorators-7.14.5.tgz"
   "version" "7.14.5"
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -1506,6 +1522,11 @@
   "integrity" "sha1-vrQ35wIrO21JAZ0IhmUwPr6cFLo="
   "resolved" "https://registry.nlark.com/cookie/download/cookie-0.4.0.tgz"
   "version" "0.4.0"
+
+"core-decorators@^0.20.0":
+  "integrity" "sha1-YFiWYkBTr4wo775zXCWjAaYcZcU="
+  "resolved" "https://registry.nlark.com/core-decorators/download/core-decorators-0.20.0.tgz"
+  "version" "0.20.0"
 
 "core-js-compat@^3.14.0", "core-js-compat@^3.16.0":
   "integrity" "sha1-s5yOTexx7NxzXGU85SM0ZuVhMk4="

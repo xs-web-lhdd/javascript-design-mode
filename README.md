@@ -180,5 +180,58 @@ demo-2.js
 + 封装旧接口
 + vue computed
 
+##### 装饰器模式：
 
++ 为对象添加新功能
++ 不改变其原有的结构和功能
 
+代码演示：
+
+​	demo-8.js
+
+###### 配置：
+
+1、在vs Code的设置中搜索`experimentalDecorators`,然后勾选相应选项即可
+
+2、安装插件：
+
+```BASH
+npm install -D @babel/plugin-proposal-decorators
+```
+
+3、在.babelrc或者package.json中配置（二选一即可，不要都配置）
+
+（1）配置.babelrc文件：
+
+```bash
+ "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+  ]
+```
+
+（2）配置package.json中babel字段：
+
+```bash
+ babel: {
+	"plugins": [
+	    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+	 ]
+  }
+```
+
+装饰类：
+
+​	demo-10.js
+
+装饰方法：
+
+​	demo-11.js
+
+场景：引入库来使用装饰器（只读、描述）
+
+​	demo-12.js
+
+###### 设计原则验证：
+
++ 将现有对象和装饰器进行分离，两者独立存在
++ 符合开放封闭原则
