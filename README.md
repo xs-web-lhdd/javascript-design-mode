@@ -316,3 +316,37 @@ npm install -D @babel/plugin-proposal-decorators
 + vue 和 React 中生命周期
 + vue watch
 
+##### 迭代器模式：
+
+介绍：
+
++ 顺序访问一个集合
++ 使用者无需知道集合的内部结构（封装）
+
+示例：
+
+​	jQuery：  test4.html
+
+演示：
+
+​	demo-17.js
+
+ES6 Iterator 为何存在？
+
++ ES6 语法中，有序集合的数据类型已经有很多
++ Array Map Set String TypedArray arguments NodeList
++ 需要有一个统一的遍历接口来遍历所有数据类型
++ （注意，object 不是有序集合，可以用 Map 代替）
++ 以上数据类型，都有 [Symbol.iterator]
++ 属性值是函数，执行函数返回一个迭代器
++ 这个迭代器就有 next 方法可顺序迭代子元素
++ 可运行 Array.prototype[Symbol.iterator] 来测试
+
+场景：
+
+​	demo-18.js
+
+
+
+
+

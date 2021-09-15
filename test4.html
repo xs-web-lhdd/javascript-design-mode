@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="div1">
+    <a href="#">a1</a>
+    <a href="#">a2</a>
+    <a href="#">a3</a>
+    <a href="#">a4</a>
+    <a href="#">a5</a>
+  </div>
+
+
+  <script src="https://lib.baomitu.com/jquery/3.6.0/jquery.js"></script>
+
+  <script>
+    var arr = [1, 2, 3, 4, 5]
+    var nodeList =  document.getElementsByTagName('a')
+    var $a = $('a')
+
+    // // 遍历数组：
+    // arr.forEach(item => {
+    //   console.log(item);
+    // })
+    
+    // // 遍历 nodeList：
+    // var i, length = nodeList.length
+    // for (let i = 0; i < length; i++) {
+    //   console.log(nodeList[i]);
+    // }
+
+    // // 遍历 $a
+    // $a.each((key, elm) => {
+    //   console.log(key, elm);
+    // })
+
+
+    // 统一的遍历方法：
+    function each (data) {
+      let $data = $(data)
+      $data.each((key, ele) => {
+        console.log(key, ele);
+      })
+    }
+    each(arr)
+    each(nodeList)
+    each($a)
+  </script>
+</body>
+</html>
