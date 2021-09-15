@@ -2405,6 +2405,11 @@
   "resolved" "https://registry.nlark.com/isobject/download/isobject-3.0.1.tgz"
   "version" "3.0.1"
 
+"javascript-state-machine@^3.1.0":
+  "integrity" "sha1-Bu6yE2pqGa4bVhBcJcrsKD3VzRQ="
+  "resolved" "https://registry.npm.taobao.org/javascript-state-machine/download/javascript-state-machine-3.1.0.tgz"
+  "version" "3.1.0"
+
 "jest-worker@^27.0.6":
   "integrity" "sha1-618FxGV/3LcCw2xIsg14W9RZk3g="
   "resolved" "https://registry.nlark.com/jest-worker/download/jest-worker-27.1.1.tgz?cache=0&sync_timestamp=1631095956510&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-worker%2Fdownload%2Fjest-worker-27.1.1.tgz"
@@ -2413,6 +2418,11 @@
     "@types/node" "*"
     "merge-stream" "^2.0.0"
     "supports-color" "^8.0.0"
+
+"jquery@^3.6.0":
+  "integrity" "sha1-xyoJ8Vwb3OFC9J2/EXC9+K2sJHA="
+  "resolved" "https://registry.npm.taobao.org/jquery/download/jquery-3.6.0.tgz?cache=0&sync_timestamp=1614705838607&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjquery%2Fdownload%2Fjquery-3.6.0.tgz"
+  "version" "3.6.0"
 
 "js-tokens@^4.0.0":
   "integrity" "sha1-GSA/tZmR35jjoocFDUZHzerzJJk="
